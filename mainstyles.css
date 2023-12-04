@@ -1,0 +1,2681 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+body{
+
+    background-image: url("/Slicing/pattern-bg.png");
+    background-color: #012c1f;
+    transition: none;
+   
+   
+}
+
+
+
+.main-container{
+    max-width: 1400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+
+
+/* Notification Bar Start */
+
+
+.messegehead{
+    width: 100%;
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    background-image: url("/Slicing/pattern-bg.png");
+  }
+.txt-msg{
+    width: 95%;
+    height: auto;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}  
+
+#crosslogo{
+    width: 5%;
+    padding: 5px;
+    cursor: pointer;
+    
+   
+}
+
+.crosslogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#messege-text{
+    color: black;
+    width: 55%;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+#msg-link{
+    color: #217f40;
+    
+
+}
+
+#cross-logo{
+    border-radius: 100%;
+    border: none;
+    margin-left: 17px;
+      
+     
+    background-color: #217f40;
+    background-image: url("/Slicing/pattern-bg.png");
+}
+
+
+#menu-close-icon{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    
+
+
+}
+
+.adidas-header{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+
+.adidas-heading{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#adidas-heading{
+    color: white;
+    width: 20%;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 90px;
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header-buttons{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-right: 45px;
+    
+}
+
+
+#btn-size{
+    width: 150px;
+    height: 40px;
+    margin-left: 6px;
+    
+    transform: skewX(-20deg);
+  
+    border: none;
+    background-color: #08512dbd;
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+#btn-non-skew{
+    
+    background-color: transparent;
+    transform: skewX(20deg);
+    
+}
+
+#btn-size-acc{
+    width: 150px;
+    height: 40px;
+    margin-left: 6px;
+    font-size: 16px;
+    
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    transform: skewX(-20deg);
+   
+    border: none;
+    color: white;
+    background-color: #08512dbd;
+    cursor: pointer;
+}
+
+
+#btn-size-acc:hover{
+    width: 150px;
+    height: 40px;
+    transition: .3s;
+    margin-left: 6px;
+    transform: skewX(-20deg);
+    border: none;
+    color: white;
+    background-color: #217f40b0;
+    cursor: pointer;
+}
+
+#btn-size:hover{
+    width: 150px;
+    height: 40px;
+    transition: .3s;
+    margin-left: 6px;
+    transform: skewX(-20deg);
+    border: none;
+    color: white;
+    background-color: #217f40b0;
+    cursor: pointer;
+}
+
+.burger-icon{
+    width: 60px;
+    height: 100%;
+    background-color: black;
+    display: none;
+    
+}
+
+#burger-icon{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+background-position: center;
+    background-image: url("/Slicing/burger-icon.png");
+
+}
+
+
+
+.banner-bottom-for-mob{
+    display: none;
+}
+
+
+
+
+.allleftbody{
+    background-color: black;
+    
+}
+
+.heading-left-body{
+    width: 100%;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+}
+
+#heading-left-body{
+    width: 100%;
+}
+
+.main-content-left-body-all{
+    width: 100%;
+    
+   
+}
+
+
+
+
+#messege-mob{
+   display: none;
+}
+
+
+
+
+
+
+
+
+/* Notification Bar End */
+
+
+/* Navbar start */
+
+
+.nav-bar-head{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navbar{
+    
+    width: 100vw;
+    height: auto;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+    display: flex;
+   
+    
+}
+
+.navbuttons{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+ 
+      
+ 
+}
+
+.sub-nav{
+    padding-left: 10%;
+}
+
+.searchbar{
+    margin-left: auto;
+    width: 30%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#srch-form{
+    margin: 0;
+    padding: 0;
+    background-color: #012c1f;
+    background-image: url("/Slicing/pattern-bg.png");
+}
+
+#nav-btn{
+    
+    width: 150px;
+    padding: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    clip-path: polygon(10% 0, 100% 0, 89% 100%, 0% 100%);
+}
+
+
+
+#nav-btn:hover{
+    
+    width: 150px;
+    padding: 16px;
+    color: white;
+    border: none;
+    transition: .3s;
+    background-image: url("/Slicing/pattern-bg.png");
+    cursor: pointer;
+    background-color: #178d3eec;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    clip-path: polygon(10% 0, 100% 0, 89% 100%, 0% 100%);
+}
+
+
+#search-item{
+    width: 200px;
+    outline: none;
+    background: transparent;
+    padding: 8px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+#srch-icon{
+    background: transparent;
+}
+
+#srch-submit{
+    width: 50px;
+    padding-bottom: 6px;
+    border: none;
+    margin-bottom: 1px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+ 
+    
+}
+
+
+/* header-log-start */
+
+
+.header-log{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-log-right{
+    width: 70%;
+    padding: 0.2%;
+    clip-path: polygon(0 0, 100% 0%, 98% 100%, 0 100%);
+    background-color: #1b7d3b;
+    background-image: url("/Slicing/pattern-bg.png");
+}
+
+#header-log-heading-right{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    width: 200px;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.header-log-right-heading{
+    padding-left: 12%;
+   
+    
+}
+
+
+.header-log-left{
+    width: 30%;
+    background-color: #ffffff;
+  
+       
+}
+
+
+.header-log-left-content{
+
+display: flex;
+flex-direction: column;
+width: 45%;
+padding-right: 30%;
+
+
+}
+
+#header-log-p{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #217f40;
+}
+
+#reebok-logo{
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+
+
+/* header-log-End */
+
+
+
+
+
+
+
+
+
+
+/* Main Slider Start */
+
+
+.mySlides{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;   
+    position: absolute; 
+    
+}
+
+.maincontent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.topcontentright{
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+
+}
+
+.alltext{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+
+}
+
+#alltext-head{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: white;
+    width: 350px;
+    text-align: left;
+    height: 130px;
+   margin: 0px;   
+    font-size: 45px;
+
+}
+
+#alltextpara{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 334px;
+    text-align: left;
+    height: 130px;
+ 
+    padding: 0;
+
+    font-size: 16px;
+}
+
+.topcontentleft{
+    width: 50%;
+    height: 100%;
+    background-image: url("/Slicing/video-thumbnail-img.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+#play-icon{
+    width: 80px;
+    height: 80px;
+    background-image: url("/Slicing/play-icon.png");
+    background-color: rgba(0, 0, 0, 0.575);
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    border: none;
+    padding: 20px;
+    background-position: center;
+    cursor: pointer;
+}
+
+img 
+{
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  height: 550px;
+  margin: auto;
+  background-image: url("/Slicing/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.allslides{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #012c1fbd ;
+    flex-direction: column;
+    
+}
+
+
+/* Next & previous buttons */
+ .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  right: 10px;
+  margin-top: -20px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    left: 30px;
+    margin-top: -20px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+/* Position the "next button" to the right */
+.next {
+  right: 30px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dots{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 6px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #bbb;
+  
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+
+
+/* Fading animation */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+
+
+    .slideInLeft {
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+
+
+
+       
+    /* Mobile Responsive Start */
+
+
+
+
+
+
+    /* Mobile Responsive End */
+
+    /* Main Slider End */
+      
+     
+    /* Main Second Slider Start */
+
+    .body-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .right-body{
+        width: 70%;
+        background-color: transparent;
+        padding: 10px;
+        
+    }
+
+    .splide{
+     
+        width: 100%;
+        padding: 80px;
+        border-bottom: 1px solid white;
+       
+    }
+   .imagebox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+    img{
+        max-width: 190px;
+        border: 6px solid rgba(7, 34, 0, 0);
+        background-image: url("/Slicing/pattern-bg.png");
+    
+    }
+    
+
+     /* Main Second Slider END */
+
+     .main-cards{
+        width: 100%;
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+        margin-top: 30px;
+
+     }
+
+     .card{
+        width: 100%;
+        margin: 10px;
+        background-color: #1b7d3b;
+        background-image: url("/Slicing/pattern-bg.png");
+        
+     }
+
+     .image-card{
+        width: 100%;
+        min-height: 140px;
+        background-image: url("/Slicing/post-img.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+
+     #heading-card
+     {
+
+        font-size: 16px;
+        padding: 5px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+
+
+
+     }
+
+     #card-para{
+        color: white;
+        min-height: 130px;
+        padding: 5px;
+        min-height: 68px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: left;
+     }
+
+    #read-more-btn{
+        width: 100%;
+        padding: 14px;
+        border: none;
+        background-color: #08512d;
+        color: white;
+        background-image: url("/Slicing/pattern-bg.png");
+        cursor: pointer;
+        transition: .2s;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+
+    #read-more-btn:hover{
+        width: 100%;
+        padding: 14px;
+        border: none;
+        background-color: #1b7d3b;
+
+
+    }
+    
+
+    .leftbody{
+        width: 30%;
+
+     
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+
+    #heading-left-body{
+        width: 75%;
+        background-color: #08512d;
+        padding: 10px;
+        margin-top: 70px;
+        background-image: url("/Slicing/pattern-bg.png");
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+       
+        
+        
+    }
+
+    .content-left-body{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Oswald', sans-serif;
+        
+
+    }
+
+    .content-left-body-right{
+        background-color: rgb(255, 255, 255);
+        padding: 4px;
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        color: #1b7d3b;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .content-left-body{
+        width: 100%;
+        padding: 10px;
+        
+        
+    }
+
+    #event-link{
+        
+        color: white;
+        margin-left: 10px;
+        
+    }
+
+    #event-para{
+        color: white;
+        margin-left: 10px;
+    }
+    
+
+    .main-content-left-body-all{
+        background-color: #1b7d3b;
+        width: 100%;
+        min-height: 250px;
+        padding: 4px;
+        background-image: url("/Slicing/pattern-bg.png");
+    }
+
+    .banners{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner1{
+       
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 13px;
+        background-color: #1b7d3b;
+    background-image: url("/Slicing/pattern-bg.png");
+     
+      
+    }
+
+
+    .banner1-right{
+        width: 60%;
+        clip-path: polygon(0 0, 100% 0, 93% 100%, 0 100%);
+        background-image: url("/Slicing/zig-zag-img-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+     
+    }
+
+   
+   .banner1-left{
+   
+  
+    margin-left: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b7d3b;
+    background-image: url("/Slicing/pattern-bg.png");
+   }
+
+   #banner1-left-heading{
+    font-family: 'Oswald', sans-serif;
+    width: 250px;
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+   }
+
+   #banner-1-left-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 250px;
+    margin-left: 30px;
+    min-height: 50px;
+    color: white;
+   }
+
+ 
+   .banner2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+  
+
+   }
+
+
+   .left-banner2{
+    width: 40%;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+    padding: 50px;
+    
+    
+   }
+
+   .right-bann-2{
+    width: 60%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+    background-color: aqua;
+    background-repeat: no-repeat;
+        background-size: cover;
+    background-image: url("/Slicing/zig-zag-img-2.png");
+   }
+
+
+#banner2-right-heading{
+font-family: 'Oswald', sans-serif;
+width: 250px;
+margin-left: 30px;
+color: white;
+text-transform: uppercase;
+font-weight: 400;
+
+}
+
+#banner-2-right-para{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+width: 250px;
+margin-left: 32px;
+min-height: 50px;
+color: white;
+
+}
+
+.contact-form{
+    width: 100%;
+    padding: 20px;
+    background-color: #08512d;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/Slicing/pattern-bg.png");
+    
+}
+
+
+.contact-form-heading{
+   
+    padding: 15px;
+}
+#contact-form-heading{
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    
+   
+}
+
+.form-body{
+        width: 60%;
+      
+       
+        display: flex;
+        flex-direction: column;
+
+}
+
+.lables-top{
+    
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+
+.lables-center{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+    
+}
+
+.lables-bottom{
+  
+    width: 100%;
+    
+    
+}
+
+.name{
+    width: 30%;
+   color: white;
+    padding: 10px;  
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#name{
+    width: 240px;
+    padding: 8px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500; 
+    outline: none;
+}
+
+#email{
+    width: 240px;
+    padding: 8px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500; 
+    
+    outline: none;
+
+}
+
+.email{
+    width: 40%;
+     color: white;
+    padding: 10px;  
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500; 
+    outline: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+#txt-transform{
+    text-transform: uppercase;
+}
+
+
+.country{
+    width: 30%;
+   color: white;
+    padding: 10px;  
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#country{
+    width: 240px;
+    padding: 8px;
+    border: none;
+    color: rgb(121, 119, 119);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    appearance: none;
+    outline: none;
+}  
+
+
+#state{
+    width: 240px;
+    padding: 8px;
+    color: rgb(121, 119, 119);
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    appearance: none;
+    outline: none;
+}  
+  
+.lables-bottom-top{
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.lables-bottom-bottom{
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#form-submit{
+    padding: 10px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #012c1f;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    border-radius: 0;
+    cursor: pointer;
+    background-image: url("/Slicing/pattern-bg.png");
+}
+#messege{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    padding: 3px;
+    
+
+}
+
+.footer{
+ 
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#footer-menu{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 1500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icons{
+    padding: 10px;
+}
+
+
+.icons img{
+    background: none;
+}
+
+#icon-plan{
+    background: transparent;
+}
+
+#copyright-sgn{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, rgb(146, 146, 146) 50%),
+      linear-gradient(135deg, rgb(146, 146, 146) 50%, transparent 50%),
+      linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+  
+#prev-arrow{
+    background: transparent;
+
+}
+
+#next-arrow{
+    background: transparent;
+}
+
+.splide__arrow{
+   background: transparent;
+}
+
+.splide__arrow--prev{
+  
+
+    border: none;
+    width: 10px;
+    padding: 10px;
+    margin-left: -10px;
+
+}
+
+.splide__arrow--next{
+    border: none;
+    margin-right: 5px;
+}
+
+
+.splide__pagination__page {
+    background: #ccc;
+    border: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: 5px;
+    margin: 3px;
+    transition: transform .2s linear;
+    width: 17px;
+    margin-left: 3px;
+}
+
+.splide__pagination__page.is-active {
+    background: rgb(255, 255, 255);
+    z-index: 0;
+    transform: scale(1);
+}
+
+
+#gender1{
+    margin-left: 20px;
+}
+
+#gender2{
+    margin-left: 20px;
+}
+
+input[type="radio"]{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    accent-color: green;
+}
+
+#lab-gender{
+padding-left: 14%;
+
+}
+
+#gen-head{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.gender-opt{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    
+}
+
+.gender0{
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+#gen1{
+    display: flex;
+}
+
+#gen2{
+    display: flex;
+}
+
+.gender-para
+{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#gen0{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.lables-bottom-bottom-sub{
+ padding-left: 15%;
+}
+
+
+
+
+.mainvideo
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(199, 199, 199, 0.699);
+    position: absolute;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    display: none;
+   
+    
+    
+}
+
+
+.video{
+
+    background-color: black;
+    transition: .5s;
+    
+}
+
+#video-close{
+    margin-top: 10px;
+    width: 300px;
+    height: 60px;
+    transition: .5s;
+    background-color: rgb(4, 102, 12);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 740px){
+
+
+
+    .banner-bottom-for-mob{
+        display: none;
+    }
+    
+   
+    
+    
+#messege-mob{
+    display: none;
+ }
+ 
+ 
+
+    .messegehead{
+        width: 100%;
+        min-height: 45px;
+        display: flex;
+        padding: 4px;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+        background-image: url("/Slicing/pattern-bg.png");
+   
+      }
+    .txt-msg{
+        width: 95%;
+        height: auto;
+        display: flex;
+        padding: 3px;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }  
+    
+    .crosslogo{
+        width: 10%;
+       
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    #messege-text{
+        color: black;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    #msg-link{
+        color: #217f40;
+        
+    
+    }
+    
+    #cross-logo{
+        border-radius: 100%;
+        border: none; 
+        margin: 0;
+        background-color: #217f40;
+        background-image: url("/Slicing/pattern-bg.png");
+    }
+    
+    
+    #menu-close-icon{
+        width: 23px;
+        height: 23px;
+        
+        
+    
+    
+    }
+
+
+
+
+
+    .adidas-header{
+        width: 100%;
+        min-height: 60px;
+        display: flex;
+        flex-direction: row;
+      
+    }
+    
+    
+    
+    .adidas-heading{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    #adidas-heading{
+        color: white;
+        width: 40%;
+     
+        text-align: center;
+        margin-top: 7px;
+        margin: 0;
+        margin-top: 4px;
+        font-size: 40px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    .header-buttons{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-right: 45px;
+        
+    }
+    
+    
+    #btn-size{
+        width: 150px;
+        height: 40px;
+        margin-left: 6px;
+        
+        transform: skewX(-20deg);
+      
+        border: none;
+        background-color: #08512dbd;
+        color:white;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+    }
+    
+    #btn-non-skew{
+        
+        background-color: transparent;
+        transform: skewX(20deg);
+        
+    }
+    
+    #btn-size-acc{
+        width: 150px;
+        height: 40px;
+        margin-left: 6px;
+        font-size: 16px;
+        margin-right: 10px;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        transform: skewX(-20deg);
+       
+        border: none;
+        color: white;
+        background-color: #08512dbd;
+        cursor: pointer;
+    }
+    
+    
+    #btn-size-acc:hover{
+        width: 150px;
+        height: 40px;
+        transition: .3s;
+        margin-left: 6px;
+        transform: skewX(-20deg);
+        border: none;
+        color: white;
+        background-color: #217f40b0;
+        cursor: pointer;
+    }
+    
+    #btn-size:hover{
+        width: 150px;
+        height: 40px;
+        transition: .3s;
+        margin-left: 6px;
+        transform: skewX(-20deg);
+        border: none;
+        color: white;
+        background-color: #217f40b0;
+        cursor: pointer;
+    }
+    
+    .burger-icon{
+        width: 60px;
+        height: 100%;
+        background-color: black;
+        display: none;
+        
+    }
+    
+    #burger-icon{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        background-repeat: no-repeat;
+    background-position: center;
+        background-image: url("/Slicing/burger-icon.png");
+    
+    }
+
+
+
+    .navbar{
+        width: 100%;
+        height: auto;
+        background-color: #08512d;
+        background-image: url("/Slicing/pattern-bg.png");
+        
+        display: flex;
+    }
+    
+    .navbuttons{
+        width: 73%;
+        display: flex;
+        flex-direction: row;
+          
+     
+    }
+    
+    .sub-nav{
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .searchbar{
+        margin-left: auto;
+        width: 27%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    #srch-form{
+        margin: 0;
+        padding: 0;
+        background-color: #012c1f;
+        background-image: url("/Slicing/pattern-bg.png");
+    }
+    
+    #nav-btn{
+        
+        width: 100px;
+        padding: 13px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        background: transparent;
+      text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        clip-path: polygon(10% 0, 100% 0, 89% 100%, 0% 100%);
+    }
+    
+    
+    
+    #nav-btn:hover{
+        
+        width: 100px;
+        padding: 13px;
+        color: white;
+        border: none;
+        transition: .3s;
+        background-image: url("/Slicing/pattern-bg.png");
+        cursor: pointer;
+        background-color: #178d3eec;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        clip-path: polygon(10% 0, 100% 0, 89% 100%, 0% 100%);
+    }
+    
+    
+    #search-item{
+        width: 120px;
+        outline: none;
+        background: transparent;
+        padding: 5px;
+        border: none;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+    }
+    
+    #srch-submit{
+        width: 50px;
+        padding-bottom: 0px;
+        border: none;
+        margin-left: 12px;
+        margin-bottom: 1px;
+        background: transparent;
+        border: none;
+     
+        
+    }
+
+    #srch-icon{
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    background: transparent;
+    }
+
+    .header-log-right-heading {
+        padding-left: 2%;
+    }
+
+    #header-log-heading-right {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        width: 200px;
+        font-size: 45px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+
+    .next, .prev {
+       display: none;
+    }
+
+    #alltextpara {
+        
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        width: 334px;
+        text-align: left;
+        height: 138px;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    #alltext-head {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        color: white;
+        width: 350px;
+        text-align: left;
+        height: 87px;
+        margin: 0px;
+        font-size: 30px;
+    }
+
+
+    #next-arrow, #prev-arrow{
+        display: none;
+    }
+
+    .right-body{
+        width: 80%;
+    }
+
+    .splide{
+        padding: 15px;
+    }
+
+    .leftbody{
+        width: 30%;
+        margin: 0px;
+        padding: 10px;
+
+    }
+
+    .allleftbody{
+
+        background-color: #ff0000;
+        width: 90%;
+    }
+
+    .heading-left-body{
+       margin-top: 50px;
+        width: 100%;
+       
+    }
+
+    #heading-left-body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       padding: 6px;
+    }
+    .main-content-left-body-all {
+     width: 100%;
+    }
+
+    .splide__track, .splide__track--loop, .splide__track--ltr, .splide__track--draggable{
+        padding-bottom: 20px;
+    }
+
+    .content-left-body{
+        padding: 5px;
+    }
+
+    .content-left-body-right {
+        background-color: rgb(255, 255, 255);
+        padding: 3px;
+        width:25%;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        color: #1b7d3b;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #event-link {
+        color: white;
+        margin-left: 10px;
+        font-size: 15px;
+        
+        text-transform: uppercase;
+    }
+
+    .main-cards{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+
+    .banners{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner1{
+       
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 13px;
+        background-color: #1b7d3b;
+    background-image: url("/Slicing/pattern-bg.png");
+     
+      
+    }
+
+
+    .banner1-right{
+        width:65%;
+        clip-path: polygon(0 0, 100% 0, 93% 100%, 0 100%);
+        background-image: url("/Slicing/zig-zag-img-1.png");
+        
+     
+    }
+
+   
+   .banner1-left{
+   
+  
+    margin-left: auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b7d3b;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/Slicing/pattern-bg.png");
+   }
+
+   #banner1-left-heading{
+    font-family: 'Oswald', sans-serif;
+    width: 180px;
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    
+   }
+
+   #banner-1-left-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    width: 150px;
+    margin-left: 0px;
+    min-height: 50px;
+    color: white;
+   }
+
+ 
+   .banner2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+  
+
+   }
+
+
+   .left-banner2{
+    width: 35%;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+    margin: 0;
+   padding: 30;
+    
+    
+   }
+
+   .right-bann-2{
+    width: 65%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%);
+   
+    background-image: url("/Slicing/zig-zag-img-2.png");
+   }
+
+
+#banner2-right-heading{
+    font-family: 'Oswald', sans-serif;
+    width: 180px;
+   margin-left: -30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+#banner-2-right-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    width: 150px;
+    margin-left: -30px;
+
+    min-height: 50px;
+    color: white;
+
+}
+
+    .lables-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        width: 50%;
+        
+    }
+
+
+    .email{
+        margin-left: 30px;
+        width: 50%;
+        
+    }
+
+    #lab-gender {
+        padding: 0;
+    }
+
+    .lables-bottom-top {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-top: 2px;
+    }
+
+    .form-body{
+        width: 80%;
+    }
+
+
+
+    .lables-bottom-bottom{
+        width: 100%;
+       
+        margin: 0;
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    .lables-bottom-bottom-sub{
+       
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    #bottom-msg-box{
+     margin: 0;
+     padding: 0;
+   
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 430px){
+  
+   
+  
+    .messegehead{
+        width: 100%;
+        display: flex;
+        padding: 17px;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+        background-image: url("/Slicing/pattern-bg.png");
+      }
+
+    .txt-msg{
+        width: 95%;
+        height: auto;
+        display: flex;
+        padding: 3px;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }  
+    
+    .crosslogo{
+        width: 5%;
+        padding: 5px;
+       
+    }
+    
+    #messege-text{
+        color: black;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        font-size: 14px;
+    }
+    
+    #msg-link{
+        color: #217f40;
+        
+    
+    }
+    
+    #cross-logo{
+        border-radius: 100%;
+        border: none;
+        margin-left: 14px;
+        background-color: #217f40;
+        background-image: url("/Slicing/pattern-bg.png");
+    }
+
+
+    .adidas-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .adidas-heading{
+        width: 100%;
+  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    #adidas-heading{
+        color: white;
+       
+        font-size: 40px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    
+    .header-buttons{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-right: 45px;
+        
+    }
+    
+    
+    #btn-size{
+        width: 150px;
+        height: 40px;
+        margin-left: 6px;
+        
+        transform: skewX(-20deg);
+      
+        border: none;
+        background-color: #08512dbd;
+        color:white;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+    }
+    
+    #btn-non-skew{
+        
+        background-color: transparent;
+        transform: skewX(20deg);
+        
+    }
+    
+    #btn-size-acc{
+        width: 150px;
+        height: 40px;
+        margin-left: 6px;
+        font-size: 16px;
+        
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        transform: skewX(-20deg);
+       
+        border: none;
+        color: white;
+        background-color: #08512dbd;
+        cursor: pointer;
+    }
+    
+    
+    #btn-size-acc:hover{
+        width: 150px;
+        height: 40px;
+        transition: .3s;
+        margin-left: 6px;
+        transform: skewX(-20deg);
+        border: none;
+        color: white;
+        background-color: #217f40b0;
+        cursor: pointer;
+    }
+    
+    #btn-size:hover{
+        width: 150px;
+        height: 40px;
+        transition: .3s;
+        margin-left: 6px;
+        transform: skewX(-20deg);
+        border: none;
+        color: white;
+        background-color: #217f40b0;
+        cursor: pointer;
+    }
+    
+    .burger-icon{
+        width: 60px;
+        padding: 10px;
+        background: transparent;
+        display: flex;
+        margin-left: auto;
+        
+    }
+
+    #burger{
+        background: transparent;
+    }
+
+    #burger-icon{
+        border: none;
+        background: transparent;
+    }
+    
+    .header-buttons{
+        width: 100%;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+    #btn-size{
+        margin:0;
+        padding: 0;
+        background-color: #217f40;
+        background-image: url("/Slicing/pattern-bg.png");
+        width:50%;
+        transform: skewX(0deg);
+    }
+
+    #btn-size-acc{
+        margin: 0;
+        padding: 0;
+        background-image: url("/Slicing/pattern-bg.png");
+        width:50%;
+        transform: skewX(0deg);
+    }
+
+
+    #btn-size:hover{
+        margin:0;
+        padding: 0;
+        background-color: #217f40;
+        background-image: url("/Slicing/pattern-bg.png");
+        width:50%;
+        transform: skewX(0deg);
+    }
+
+    #btn-size-acc:hover{
+        margin: 0;
+        padding: 0;
+        background-image: url("/Slicing/pattern-bg.png");
+        width:50%;
+        background-color: #217f40;
+        transform: skewX(0deg);
+    }
+
+    #btn-non-skew{
+        transform: skewX(0deg);
+    }
+    
+    .navbar{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #08512d;
+        display: none;
+        
+    }
+    .searchbar{
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        flex-direction: row;
+        align-items: center;
+        
+        
+    }
+    #srch-form{
+        width: 90%;
+        text-transform: uppercase;
+        
+    }
+    #search-item{
+        width: 80%;
+    }
+
+    #srch-icon{
+        
+        background: transparent;
+    }
+
+    .sub-nav{
+        width: 70%;
+      
+        margin-top: 10px;
+        height: 450px;
+       margin-left: 10px;
+        padding-right: 70px;
+        
+        
+    }
+
+    .navbuttons{
+        margin: 0;
+    }
+
+    #nav-btn{
+        width: 130px;
+        padding: 15px;
+        text-align: left;
+        clip-path: polygon(0 0, 100% 0, 92% 100%, 0% 100%);
+    }
+
+    #nav-btn:hover{
+        width: 130px;
+        padding: 15px;
+        clip-path: polygon(0 0, 100% 0, 92% 100%, 0% 100%);
+    }
+
+    .header-log{
+        display: none;
+    }
+
+    .maincontent{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .topcontentleft{
+        width: 50%;
+        height: 100%;
+       
+        background-size: contain;
+       
+    }
+
+    .topcontentright{
+        width: 50%;
+        height: 50%;
+    }
+
+    #alltextpara{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+
+    .body-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-body{
+        width: 100%;
+    }
+
+    .splide{
+     
+        width: 100%;
+     
+        border-bottom: 1px solid white;
+    }
+    .imagebox{
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+       
+    }
+
+    #splid-slider-img{
+        width: 200px;
+    }
+
+    .splide__slide{
+        width: 150px;
+        height: 150px;
+       
+    } 
+
+    .main-cards{
+        width: 95%;
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin-top: 10px;
+        margin: 0;
+      
+        padding: 0;
+
+     }
+
+     .banners{
+       
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner1{
+       
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+        background-color: #1b7d3b;
+        background-image: url("/Slicing/pattern-bg.png");
+     
+      
+    }
+
+
+    .banner1-right{
+        width: 100%;
+    
+        background-image: url("/Slicing/zig-zag-img-1.png");
+        height: 150px;
+        background-position: center;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        
+     
+    }
+
+   
+   .banner1-left{
+   
+  
+   
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   
+  
+    background-color: #1b7d3b;
+    background-image: url("/Slicing/pattern-bg.png");
+   }
+
+   #banner1-left-heading{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    
+   }
+
+   #banner-1-left-para{
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+   
+    
+    min-height: 50px;
+    color: white;
+   }
+
+ 
+   .banner2{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 10px;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+  
+
+   }
+
+
+   .left-banner2{
+    width: 100%;
+    background-color: #08512d;
+    background-image: url("/Slicing/pattern-bg.png");
+    padding: 20px;
+    margin: 0;
+   
+    
+    
+   }
+
+   .right-bann-2{
+    width: 100%;
+    height: 180px;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background-image: url("/Slicing/zig-zag-img-2.png");
+   }
+
+
+#banner2-right-heading{
+font-family: 'Oswald', sans-serif;
+width: 100%;
+margin: 0;
+padding: 0;
+color: white;
+text-transform: uppercase;
+font-weight: 400;
+
+}
+
+#banner-2-right-para{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+width: 100%;
+margin: 0;
+padding: 0;
+min-height: 50px;
+color: white;
+
+}
+
+.leftbody{
+   
+    width: 100%;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allleftbody{
+    width: 80%;
+   
+}
+
+.heading-left-body{
+    margin: 0;
+}
+
+.contact-form{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+    
+.lables-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.lables-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+
+.email{
+    margin: 0;
+    width: 100%;
+   
+}
+
+#name{
+    width: 300px;
+}
+
+#email{
+    width: 300px;
+}
+
+#country{
+    width: 300px;
+}
+
+#state{
+    width: 300px;
+}
+
+#messege{
+    display: none;
+}
+#messege-mob{
+    display: block;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.footer-menu
+{
+   width: 89%;
+   text-align: center; 
+   
+}
+
+#slash{
+    display: none;
+}
+
+}
+
